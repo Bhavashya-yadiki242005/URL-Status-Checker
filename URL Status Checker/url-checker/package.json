@@ -1,0 +1,12 @@
+{
+  "name": "url-status-checker",
+  "version": "1.0.0",
+  "description": "Simple URL Status Checker for Docker demo",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}

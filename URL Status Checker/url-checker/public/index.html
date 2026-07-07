@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>URL Status Checker</title>
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <main class="container">
+    <div class="card">
+      <h1>URL Status Checker</h1>
+      <p class="subtitle">Check if a website is online</p>
+
+      <form id="checkForm">
+        <input
+          type="text"
+          id="urlInput"
+          placeholder="https://google.com"
+          required
+        />
+        <button type="submit" id="checkBtn">Check Status</button>
+      </form>
+
+      <div id="result" class="result hidden"></div>
+    </div>
+  </main>
+
+  <script src="/app.js"></script>
+</body>
+</html>
